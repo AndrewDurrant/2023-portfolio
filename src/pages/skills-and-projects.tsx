@@ -27,24 +27,24 @@ export default function SkillsAndProjects() {
         </ul>
       </div>
       <div className={styles.card}>
-        <h2>Current Endeavors</h2>
-        <p>DSA: HackerRank, Cracking the Coding Interview</p>
+        <h2>Endeavors</h2>
+        <p><b>DSA:</b> HackerRank, Cracking the Coding Interview</p>
         <br />
-        <p>Books: The Pragmatic Programmer</p>
+        <p><b>Books:</b> The Pragmatic Programmer</p>
         <br />
-        <p>Graphic Design: Learning Vectornator and Figma</p>
+        <p><b>Graphic Design:</b> Learning Vectornator and Figma</p>
         <br />
-        <p>Music Production: In-depth pursuit to master Logic Pro, understanding the foundational concepts of synthesis</p>
+        <p><b>Music Production:</b> In-depth pursuit to master Logic Pro. Understanding the foundational concepts of synthesis.</p>
         <br />
-        <p>Learn Spanish Language: Duolingo, SpanishDict, youtube</p>
+        <p><b>Learning Spanish:</b> Duolingo, SpanishDict, youtube</p>
       </div>
       <div className={styles.card}>
         <h2>Django Project</h2>
-        <p>Currently Wireframing this out</p>
+        <p>Currently Wireframing this out.</p>
       </div>
       <div className={styles.card}>
-        <h2>Open Source Contributions</h2>
-        <p>Nuclear</p>
+        <h2>Open Source</h2>
+        <p>Coming soon...</p>
       </div>
     </div>  
     </>

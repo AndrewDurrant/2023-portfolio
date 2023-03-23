@@ -1,6 +1,5 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import Navigation from '@/components/navigation'
+import Head from 'next/head';
+import styles from '@/styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
           <h2>Welcome to my Website</h2>
           <p>Built with NextJS</p>
           <p>Have a look around</p>
-        <img src="" alt="" />
         </div>
       </main>
     </>

@@ -1,4 +1,4 @@
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.css';
 
 export default function About() {
   return (
@@ -10,7 +10,7 @@ export default function About() {
       </div>
       <div className={styles.card}>
         <h2>My Story</h2>
-        <p>Growing up in an environment where music, art, and nature were constantly present has shaped who I am today. These experiences instilled in me a strong sense of teamwork and community, which I carry with me to this day. My academic journey furthered my understanding of how the world works, as I focused on studying biological and ecological systems. This curiosity led me to explore the world of computer systems and development, where I discovered that I could apply my knowledge and skills to create innovative solutions and make a positive impact on people’s lives. Today, as a developer, I continue to draw upon my upbringing and academic pursuits to approach problems with creativity, teamwork, and an appreciation for the interconnectedness of different systems.</p>
+        <p>Growing up in an environment where music, art, and nature were constantly present has shaped who I am today. These experiences instilled in me a strong sense of teamwork and community, which I carry with me to this day. My academic journey furthered my understanding of how the world works, as I focused on studying biological and ecological systems. This curiosity led me to explore the world of computer systems and development, where I discovered that I could apply my knowledge and skills to create innovative solutions and make a positive impact on people's lives. Today, as a developer, I continue to draw upon my upbringing and academic pursuits to approach problems with creativity, teamwork, and an appreciation for the interconnectedness of different systems.</p>
       </div>
       <div className={styles.card}>
         <h2>My Stoke</h2>
@@ -28,14 +28,14 @@ export default function About() {
       <div className={styles.card}>
         <h2>Past Lives</h2>
         <ul>
-          <li>Surf Instructor - Pawleys Island, S.C.</li>
-          <li>Organic Chemistry Technician - Burlington, WA</li>
-          <li>Trainer and Team Lead @ BPO - Orem, UT</li>
-          <li>Breakfast Cook - Bellingham, WA</li>
-          <li>Farm Manager - Deming, WA</li>
-          <li>Botany/Mycology/Ecology - Olympia, WA</li>
-          <li>Musician - Honolulu, HI/Myrtle Beach, S.C.</li>
-          <li>Mountain Operations - Snowbird, UT</li>
+          <li><b>Surf Instructor</b> - Pawleys Island, S.C.</li>
+          <li><b>Organic Chemistry Technician</b> - Burlington, WA</li>
+          <li><b>Trainer and Team Lead @ BPO</b> - Orem, UT</li>
+          <li><b>Breakfast Cook</b> - Bellingham, WA</li>
+          <li><b>Farm Manager</b> - Deming, WA</li>
+          <li><b>Botany/Mycology/Ecology</b> - Olympia, WA</li>
+          <li><b>Musician</b> - Honolulu, HI/Myrtle Beach, S.C.</li>
+          <li><b>Mountain Operations</b> - Snowbird, UT</li>
         </ul>
       </div>
     </div>  

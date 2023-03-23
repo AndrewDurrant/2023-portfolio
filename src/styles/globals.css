@@ -95,6 +95,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+p {
+  margin-bottom: 0.5rem;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -102,6 +106,14 @@ a {
 
 h2 {
   margin-bottom: 2rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
