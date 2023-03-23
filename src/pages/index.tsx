@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
-import Link from 'next/link'
+import Navigation from '@/components/navigation'
 
 export default function Home() {
   return (
@@ -12,15 +12,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <div>
-        <h1>Home Page, but I think this will default to about?</h1>
-        <p>Or I could have this be the home of header and nav and next the routes within this file? Stay tuned!</p>
-        </div>
-        <div className={styles.navigation}>
-          <Link href="/about">About</Link>
-          <Link href="/experience">Experience</Link>
-          <Link href="/skills-and-projects">Skills & Projects</Link>
-          <Link href="/contact">Contact</Link>
+        <div className={styles.welcome}>
+          <h2>Welcome to my Website</h2>
+          <p>Built with NextJS</p>
+          <p>Have a look around</p>
+        <img src="" alt="" />
         </div>
       </main>
     </>
