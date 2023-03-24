@@ -10,13 +10,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <div className={styles.welcome}>
-          <h2>Welcome to my Website</h2>
-          <p>Built with NextJS</p>
-          <p>Have a look around</p>
-        </div>
-      </main>
+      <div className={styles.welcome}>
+        <h2>“The city’s central computer told you?  R2D2, you know better than to trust a strange computer!” (C3PO)</h2>
+      </div>
     </>
   )
 }

@@ -1,10 +1,17 @@
+import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 
 export default function SkillsAndProjects() {
   return (
     <>
+    <Head>
+      <title>Andrew Durrant: Skills & Projects</title>
+      <meta name="description" content="A place for Andrew Durrant to market his skills" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
     <div className={styles.cardsContainer}>
-      <div className={styles.card}>
+      <div className={styles.cardLight}>
         <h2>Skills</h2>
         <ul>
           <li>JavaScript ES6</li>
@@ -26,7 +33,7 @@ export default function SkillsAndProjects() {
           <li>Asana</li>
         </ul>
       </div>
-      <div className={styles.card}>
+      <div className={styles.cardLight}>
         <h2>Endeavors</h2>
         <p><b>DSA:</b> HackerRank, Cracking the Coding Interview</p>
         <br />
@@ -36,13 +43,13 @@ export default function SkillsAndProjects() {
         <br />
         <p><b>Music Production:</b> In-depth pursuit to master Logic Pro. Understanding the foundational concepts of synthesis.</p>
         <br />
-        <p><b>Learning Spanish:</b> Duolingo, SpanishDict, youtube</p>
+        <p><b>Learning Spanish:</b> Duolingo, SpanishDict</p>
       </div>
-      <div className={styles.card}>
+      <div className={styles.cardLight}>
         <h2>Django Project</h2>
         <p>Currently Wireframing this out.</p>
       </div>
-      <div className={styles.card}>
+      <div className={styles.cardLight}>
         <h2>Open Source</h2>
         <p>Coming soon...</p>
       </div>

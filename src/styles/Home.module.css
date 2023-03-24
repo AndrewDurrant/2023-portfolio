@@ -2,53 +2,77 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 6rem;
-  min-height: 100vh;
+  min-height:fit-content;
 }
 
 .navigation {
   width: 100%;
-  margin: 2rem;
+  padding: 1rem;
   display: flex;
   justify-content: space-around;
+  background: var(--secondary-light);
+}
+
+.navigation a {
+  font-size: clamp(1rem, 0.8846rem + 0.4923vw, 1.5rem); 
 }
 
 .title {
   width: 100%;
-  margin: 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: var(--secondary-dark);
 }
 
 .welcome {
   width: 100%;
+  min-height: 100vh;
+  padding: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--primary-light);
+  background-image: url('../assets/desert-landing.jpg');
+  background-size: 100%;
 }
 
 .cardsContainer {
+  min-height:fit-content;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   overflow: scroll;
+  padding: 0.5rem;
 }
 
-.card {
-  width: 50%;
-  margin: 2rem;
+.cardLight {
+  background: var(--primary-light);
+  color: var(--background);
+  min-width: 45%;
+  padding: 2rem;
+  margin: 0.5rem;
+}
+
+.cardDark {
+  background: var(--primary-dark);
+  color: var(--primary-light);
+  min-width: 45%;
+  padding: 2rem;
+  margin: 0.5rem;
 }
 
 .contactHeader {
-  margin-top: 3rem;
+  margin: 3rem 0 5rem;
   text-align: center;
 }
 
 .contactContainer {
   width: 100%;
+  min-height: fit-content;
   display: flex;
   justify-content: space-around;
+  padding: 5rem;
 }
 
 .icons {

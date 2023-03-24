@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import styles from '@/styles/Home.module.css'
+import styles from '@/styles/Home.module.css';
 
 export default function Title() {
   return (
@@ -7,7 +7,7 @@ export default function Title() {
     < Link href = "/" >  
       <div className={styles.title}>
         <h1>Andrew Durrant</h1>
-        <p>Software Engineer & Musician</p>
+        <span>Software Engineer & Musician</span>
       </div>
     </Link>
     </>
