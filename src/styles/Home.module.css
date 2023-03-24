@@ -32,9 +32,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: var(--primary-light);
-  background-image: url('../assets/desert-landing.jpg');
+  color: var(--font-dark);
+  background: linear-gradient(0deg, rgba(254,250,224,0.55) 66%, rgba(254,250,224,0.65) 100%), url('../assets/desert-landing.jpg');
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .cardsContainer {
