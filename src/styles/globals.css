@@ -41,8 +41,15 @@ body {
   min-height: 100vh;
 }
 
+#__next {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  height: 100vh;
+}
+
 main {
-  min-height: fit-content;
+  /* min-height: fit-content; */
+
 }
 
 p {

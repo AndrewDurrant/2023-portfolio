@@ -17,9 +17,9 @@ export default function Contact() {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <main className={styles.cardDark}>
+    <div className={styles.contactContainer}>
       <h2 className={styles.contactHeader}>Contact me at any of the following:</h2>
-      <div className={styles.contactContainer}>
+      <div className={styles.contactListContainer}>
         <a href="https://gitlab.com/andrew.durrant" target="_blank">
           <FontAwesomeIcon icon={faGitlab} size="4x"/>
         </a>
@@ -33,7 +33,7 @@ export default function Contact() {
         <FontAwesomeIcon icon={faHackerrank} size="4x"/>
         </a>
       </div>
-    </main>
+    </div>
     </>
   );
 }
