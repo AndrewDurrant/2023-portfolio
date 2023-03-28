@@ -55,7 +55,7 @@ main {
 p {
   margin-bottom: 1rem;
   font-family: var(--font-lato);
-  font-size: clamp(1rem, 0.8846rem + 0.4923vw, 1.5rem); 
+  font-size: clamp(1rem, 2.5vw, 1.5rem); 
   line-height: 1.4;
 }
 
@@ -68,7 +68,7 @@ a {
 
 h1 {
   margin: 1rem 0.5rem;
-  font-size: clamp(3rem, 5vw, 8rem);
+  font-size: clamp(2.5rem, 5vw, 8rem);
   font-family: var(--font-space);
 }
 
@@ -85,9 +85,15 @@ ul {
 }
 
 li {
-  margin: 2rem;
+  margin: 1rem;
   font-family: var(--font-lato);
   font-size: clamp(1rem, 0.8846rem + 0.4923vw, 1.5rem);
+}
+
+@media (min-width: 600px) {
+  li {
+    margin: 2rem;
+  }
 }
 
 span {
