@@ -13,7 +13,7 @@ export default function About() {
     <div className={styles.cardsContainer}>
       <div className={styles.cardLight}>
         <h2>Elevator Pitch</h2>
-        <p>Hi there! I'm an engineer who is passionate about music and the environment, and I possess a talent for crafting high-quality, responsive web interfaces. Using Angular, TypeScript, and Cypress, I create visually appealing user interfaces that delight clients. With experience in technical architecture and design, I work collaboratively with small teams to meet project objectives. My ability to communicate effectively and adapt to changing requirements has helped me to deliver successful projects. I'm dedicated to continuous learning and development, staying up to date with the latest trends and tools in software engineering. With exceptional interpersonal skills and a deep understanding of client needs, I excel in client onboarding and support roles.</p>
+        <p>Hi there! I'm an engineer who has thrived within early-stage startups, and I possess a talent for crafting high-quality, responsive web interfaces. Using Angular, TypeScript, and Cypress, I create visually appealing user interfaces that delight clients. With experience in technical architecture and design, I work collaboratively with small teams to meet project objectives. My ability to communicate effectively and adapt to changing requirements has helped me to deliver successful projects. I'm dedicated to continuous learning and development, staying up to date with the latest trends and tools in software engineering. With exceptional interpersonal skills and a deep understanding of client needs, I excel in client onboarding and support roles.</p>
       </div>
       <div className={styles.cardLight}>
         <h2>My Story</h2>
@@ -36,9 +36,9 @@ export default function About() {
         <h2>Past Lives</h2>
         <div>
           <p><b>Surf Instructor</b> - Pawleys Island, S.C.</p>
-          <p><b>Organic Chemistry Technician</b> - Burpngton, WA</p>
+          <p><b>Organic Chemistry Technician</b> - Burlington, WA</p>
           <p><b>Trainer and Team Lead @ BPO</b> - Orem, UT</p>
-          <p><b>Breakfast Cook</b> - Belpngham, WA</p>
+          <p><b>Breakfast Cook</b> - Bellingham, WA</p>
           <p><b>Farm Manager</b> - Deming, WA</p>
           <p><b>Botany/Mycology/Ecology</b> - Olympia, WA</p>
           <p><b>Musician</b> - Honolulu, HI/Myrtle Beach, S.C.</p>

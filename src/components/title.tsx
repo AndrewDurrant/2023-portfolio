@@ -7,7 +7,7 @@ export default function Title() {
     < Link href = "/" >  
       <div className={styles.title}>
         <h1>Andrew Durrant</h1>
-        <span>Software Engineer & Musician</span>
+        <span>Software Engineer</span>
       </div>
     </Link>
     </>
