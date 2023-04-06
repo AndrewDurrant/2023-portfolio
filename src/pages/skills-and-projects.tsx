@@ -1,5 +1,12 @@
 import Head from 'next/head';
+import { faJs, faAngular, faReact, faPython, faCss3Alt, faHtml5, faSass, faDocker, faFigma, faJira, faNpm, faGit} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { config } from '@fortawesome/fontawesome-svg-core';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+
 import styles from '@/styles/Home.module.css';
+
+config.autoAddCss = false
 
 export default function SkillsAndProjects() {
   return (
@@ -14,20 +21,46 @@ export default function SkillsAndProjects() {
       <div className={styles.cardLight}>
         <h2>Skills</h2>
         <ul>
-          <li>JavaScript ES6</li>
+          <li>
+            <FontAwesomeIcon icon={faJs} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faAngular} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faReact} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faPython} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faCss3Alt} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faHtml5} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faSass} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faDocker} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faFigma} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faJira} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faNpm} size="3x"/>
+          </li>
+          <li>
+            <FontAwesomeIcon icon={faGit} size="3x"/>
+          </li>
           <li>TypeScript</li>
-          <li>Angular</li>
-          <li>React</li>
           <li>Cypress</li>
-          <li>Python</li>
           <li>Django</li>
-          <li>CSS3</li>
-          <li>Sass</li>
-          <li>HTML5</li>
-          <li>Git</li>
-          <li>Angular Material</li>
           <li>Firebase</li>
-          <li>Figma</li>
         </ul>
       </div>
       <div className={styles.cardLight}>

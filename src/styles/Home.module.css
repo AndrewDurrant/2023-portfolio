@@ -98,9 +98,32 @@
   background: var(--primary-dark);
   color: var(--primary-light);
   min-width: 45%;
-  max-height: 63vh;
+  max-height: 69vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: scroll;
+}
+
+@media (min-width: 600px) {
+  .cardLight {
+    min-width: 45%;
+    overflow: scroll;
+  }
+  .cardDark {
+    min-width: 45%;
+    overflow: scroll;
+  }
+  .desktopImages {
+    width: 550px;
+    height: auto;
+  }
+}
+
+.desktopImages {
+  margin: 1.5rem 0;
+}
+
+.mobileImages {
+  margin: 1.5rem;
 }
 
 .contactContainer {
