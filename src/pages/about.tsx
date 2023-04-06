@@ -12,8 +12,8 @@ export default function About() {
     </Head>
     <div className={styles.cardsContainer}>
       <div className={styles.cardLight}>
-        <h2>Elevator Pitch</h2>
-        <p>Hi there! I'm an engineer who has thrived within early-stage startups, and I possess a talent for crafting high-quality, responsive web interfaces. Using Angular, TypeScript, and Cypress, I create visually appealing user interfaces that delight clients. With experience in technical architecture and design, I work collaboratively with small teams to meet project objectives. My ability to communicate effectively and adapt to changing requirements has helped me to deliver successful projects. I'm dedicated to continuous learning and development, staying up to date with the latest trends and tools in software engineering. With exceptional interpersonal skills and a deep understanding of client needs, I excel in client onboarding and support roles.</p>
+        <h2>Introduction</h2>
+        <p>I'm an engineer who has thrived within early-stage startups, and I possess a talent for crafting high-quality, responsive web applications. Using an array of front-end technologies I create visually appealing UIs that delight clients and are intuitive for the user. My ability to communicate effectively and adapt to changing requirements has helped me to deliver successful projects. I'm dedicated to continuous learning and development, staying up to date with the latest trends and tools in software engineering. With exceptional interpersonal skills and an understanding of client needs, I also excel in client onboarding and technical support roles.</p>
       </div>
       <div className={styles.cardLight}>
         <h2>My Story</h2>

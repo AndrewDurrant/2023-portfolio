@@ -5,8 +5,8 @@
   --font-lato: 'Lato', sans-serif;
   --background: #283618;
   --font-color: #171B0D;
-  --primary-dark: #606C38;
-  --primary-light: #FEFAE0;
+  --primary-dark: #375C8A;
+  --primary-light: #CEDFF3;
   --secondary-dark: #DDA15E;
   --secondary-light: #F7F8F2;
 }
@@ -15,8 +15,8 @@
   :root {
     --background: #283618;
     --font-color: #171B0D;
-    --primary-dark: #606C38;
-    --primary-light: #FEFAE0;
+    --primary-dark: #375C8A;
+    --primary-light: #BDD4EF;
     --secondary-dark: #DDA15E;
     --secondary-light: #F7F8F2;
   }
@@ -37,7 +37,7 @@ body {
 body {
   color: var(--font-color);
   font-family: var('--font-lato');
-  background: var(--background);
+  background: var(--secondary-light);
   min-height: 100vh;
 }
 
@@ -45,11 +45,6 @@ body {
   display: grid;
   grid-template-rows: auto auto 1fr;
   height: 100vh;
-}
-
-main {
-  /* min-height: fit-content; */
-
 }
 
 p {
@@ -62,19 +57,18 @@ p {
 a {
   color: inherit;
   text-decoration: none;
-  /* font-family: var(--font-space); */
   font-size: clamp(1rem, 2.5vw, 3rem);
 }
 
 h1 {
-  margin: 1rem 0.5rem;
-  font-size: clamp(2.5rem, 5vw, 8rem);
+  margin: 0.5rem;
+  font-size: clamp(2rem, 5vw, 4rem);
   font-family: var(--font-space);
 }
 
 h2 {
-  margin: 1rem auto;
-  font-size: clamp(1.5rem, 2.5vw, 3rem);
+  margin: 0 0 .5rem 0;
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
   font-family: var(--font-space);
 }
 
@@ -97,8 +91,10 @@ li {
 }
 
 span {
-  margin-bottom: 0.5rem;
+  display: block;
+  margin: 0 0 1rem .5rem;
   font-family: var(--font-space);
+  font-size: clamp(1rem, 3vw, 2rem); 
 }
 
 @media (prefers-color-scheme: dark) {

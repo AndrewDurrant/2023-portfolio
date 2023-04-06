@@ -26,16 +26,13 @@ export default function SkillsAndProjects() {
           <li>HTML5</li>
           <li>Git</li>
           <li>Angular Material</li>
-          <li>Gitlab</li>
-          <li>Docker</li>
+          <li>Firebase</li>
           <li>Figma</li>
-          <li>Jira</li>
-          <li>Asana</li>
         </ul>
       </div>
       <div className={styles.cardLight}>
         <h2>Endeavors</h2>
-        <p><b>DSA:</b> HackerRank, Cracking the Coding Interview</p>
+        <p><b>DSA:</b> HackerRank </p>
         <br />
         <p><b>Books:</b> The Pragmatic Programmer</p>
         <br />
@@ -43,7 +40,7 @@ export default function SkillsAndProjects() {
         <br />
         <p><b>Music Production:</b> In-depth pursuit to master Logic Pro. Understanding the foundational concepts of synthesis.</p>
         <br />
-        <p><b>Learning Spanish:</b> Duolingo, SpanishDict</p>
+        <p><b>Learning Spanish:</b> Duolingo</p>
       </div>
       <div className={styles.cardLight}>
         <h2>Django Project</h2>

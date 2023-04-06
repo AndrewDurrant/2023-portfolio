@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.welcome}>
-        <h2>“The city’s central computer told you?  R2D2, you know better than to trust a strange computer!” (C3PO)</h2>
+        <h2>“Make everything as simple as possible, but not simpler.” (Albert Einstein)</h2>
       </div>
     </>
   )
