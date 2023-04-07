@@ -143,8 +143,8 @@ export default function Experience() {
         <p>Designed and implemented the “Follow” Creator functionality for both the mobile app and API, driving engagement and user growth for the product.</p>
         <div className="video">
           <iframe 
-          width="560" 
-          height="315" 
+          width="280" 
+          height="157" 
           src="https://www.youtube.com/embed/ZDsTW-cpoRo" title="YouTube video player" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
