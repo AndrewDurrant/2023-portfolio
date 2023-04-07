@@ -146,9 +146,7 @@ export default function Experience() {
           width="280" 
           height="157" 
           src="https://www.youtube.com/embed/ZDsTW-cpoRo" title="YouTube video player" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen/>
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"/>
         </div>
         <p>Worked with product and design and other developers to implement new designs and functionality to the app and website.</p>
         <Image
