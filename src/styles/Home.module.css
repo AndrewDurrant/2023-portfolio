@@ -1,8 +1,14 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height:fit-content;
+.siteLayoutContainer {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  height: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 600px) {
+  .siteLayoutContainer {
+    height: 100vh;
+  }
 }
 
 .navigation {
@@ -87,7 +93,7 @@
   background: var(--primary-light);
   color: var(--background);
   min-width: 45%;
-  max-height: 63vh;
+  min-height: 60vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: scroll;
 }
@@ -98,7 +104,7 @@
   background: var(--primary-dark);
   color: var(--primary-light);
   min-width: 45%;
-  max-height: 69vh;
+  min-height: 60vh;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: scroll;
 }
