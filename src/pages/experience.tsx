@@ -18,7 +18,7 @@ import avybeLandingPage from './/../assets/avybe-landing-page.jpg';
 import avybeLandingPageTwo from './/../assets/avybe-landing-page-two.jpg';
 import avybeCollage from './/../assets/avybe-collage.jpg';
 import creatorDashboard from './/../assets/creator-dashboard.jpg';
-
+import pennyThoughts from './/../assets/penny-thoughts.jpg';
 
 export default function Experience() {
   return (
@@ -167,6 +167,12 @@ export default function Experience() {
         <p>Mentorship by dedicated senior software engineer.</p> 
         <p>Github for collaboration and version control.</p>
         <p>Extensive VS Code, Postman and Test Driven Development practice.</p>
+        <Image
+          className={styles.desktopImages}
+          src={pennyThoughts}
+          alt='Penny Thoughts Landing Page'
+          width={300}
+        />
       </div>
     </div>  
     </>
