@@ -50,7 +50,7 @@ export default function Experience() {
         <Image
           className={styles.desktopImages}
           src={modelBuilder}
-          alt='Image of the My Teams view in Airin app'
+          alt='Image of model builder view in Airin app'
           width={300}
         />
         <p>Led major updates to the frontend testing infrastructure, including implementing Cypress E2E testing and collaborating on the implementation of a Gitlab CI/CD pipeline to further automate testing.</p>
@@ -143,8 +143,6 @@ export default function Experience() {
         <p>Designed and implemented the “Follow” Creator functionality for both the mobile app and API, driving engagement and user growth for the product.</p>
         <div className="video">
           <iframe 
-          width="280" 
-          height="157" 
           src="https://www.youtube.com/embed/ZDsTW-cpoRo" title="YouTube video player" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"/>
         </div>

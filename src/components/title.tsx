@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image'
 
-import styles from '@/styles/Home.module.css';
+import styles from '@/styles/Title.module.css';
 import portfolioPicture from './/../assets/brickwall-image.jpg';
 
 export default function Title() {
@@ -12,8 +12,8 @@ export default function Title() {
         <Image
           src={portfolioPicture}
           alt='Image of Portfolio creator'
-          width={150}
-          height={150}
+          width={100}
+          height={100}
           className={styles.authorImage}
         />
       </Link>
