@@ -17,7 +17,7 @@
   display: grid;
   place-content: center;
   color: var(--font-dark);
-  background: linear-gradient(0deg, rgba(254,250,224,0.55) 66%, rgba(254,250,224,0.65) 100%), url('../assets/desert-landing.jpg');
+  background: linear-gradient(0deg, rgba(247, 248, 242,0.55) 66%, rgba(247, 248, 242,0.65) 100%), url('../assets/desert-landing.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;

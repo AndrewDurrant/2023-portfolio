@@ -84,16 +84,16 @@ li {
   font-size: clamp(1.5rem, 0.8846rem + 0.4923vw, 1.5rem);
 }
 
-iframe {
-  aspect-ratio: 16 / 9;
-  height: 100%; 
-  width: 100%;
-}
-
 @media (min-width: 600px) {
   li {
     margin: 2rem;
   }
+}
+
+iframe {
+  aspect-ratio: 16 / 9;
+  height: 100%; 
+  width: 100%;
 }
 
 span {
