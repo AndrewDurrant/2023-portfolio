@@ -51,7 +51,7 @@ p {
   margin-bottom: 1rem;
   font-family: var(--font-lato);
   font-size: clamp(1rem, 2.5vw, 1.25rem); 
-  line-height: 1.4;
+  line-height: 2.0;
 }
 
 a {
@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  margin: 0 0 .5rem 0;
+  margin: 0 0 1.5rem 0;
   font-size: clamp(1.5rem, 2.5vw, 4rem);
   font-family: var(--font-space);
 }
@@ -99,7 +99,7 @@ iframe {
 span {
   display: block;
   margin: 0 0 1rem .5rem;
-  font-family: var(--font-space);
+  font-family: var(--font-lato);
   font-size: clamp(1rem, 3vw, 2rem); 
 }
 

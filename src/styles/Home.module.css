@@ -2,7 +2,6 @@
   display: grid;
   grid-template-rows: auto auto 1fr;
   height: auto;
-  /* overflow: hidden; */
 }
 @media (min-width: 900px) {
   .siteLayoutContainer {
@@ -39,33 +38,19 @@
   }
 }
 
-.cardLight {
-  margin: 0.5rem;
-  padding: 2rem;
-  background: var(--primary-light);
-  color: var(--background);
-  min-width: 45%;
-  min-height: 60vh;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: scroll;
-  -webkit-overflow-scrolling: touch;
-}
-
 .cardDark {
   margin: 0.5rem;
   padding: 2rem;
   background: var(--primary-dark);
-  color: var(--primary-light);
+  color: var(--secondary-light);
   min-width: 45%;
   min-height: 60vh;
+  border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
 @media (min-width: 900px) {
-  .cardLight {
-    min-width: 45%;
-  }
   .cardDark {
     min-width: 45%;
   }
@@ -74,11 +59,7 @@
     height: auto;
   }
 }
-
 @media (min-width: 1200px) {
-  .cardLight {
-    min-width: 45%;
-  }
   .cardDark {
     min-width: 45%;
   }

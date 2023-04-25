@@ -5,9 +5,8 @@ export default function Navigation() {
   return (
     <>
     <nav className={styles.navigation}>
-      <Link href="/about">About</Link>
+      <Link href="/">About</Link>
       <Link href="/experience">Experience</Link>
-      <Link href="/skills-and-projects">Skills & Projects</Link>
       <Link href="/contact">Contact</Link>
     </nav>
     </>

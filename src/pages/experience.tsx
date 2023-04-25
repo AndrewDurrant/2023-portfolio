@@ -31,7 +31,7 @@ export default function Experience() {
     </Head>
     <div className={styles.cardsContainer}>
       <div className={styles.cardDark}>
-        <h2>Airin | Cognitive AI</h2>
+        <h2>Airin | Frontend Engineer</h2>
         <p>Enterprise SaaS startup using Cognitive AI to build expert systems that reduce human labor costs. Airin has worked with very large clients in both the Tech and BPO spaces including Google, Microsoft, Dealertrack and Accenture. Airin has a very small engineering team where I had the privilege of being one of their first innovators as a Frontend Engineer. Screenshots are examples of my work at Airin.</p>
         <Image
           className={styles.desktopImages}

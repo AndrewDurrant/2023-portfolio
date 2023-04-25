@@ -8,7 +8,6 @@ export default function Title() {
   return (
     <> 
       <div className={styles.title}>
-      <Link href = "/" >
         <Image
           src={portfolioPicture}
           alt='Image of Portfolio creator'
@@ -16,7 +15,6 @@ export default function Title() {
           height={100}
           className={styles.authorImage}
         />
-      </Link>
       <div>
         <h1>Andrew Durrant</h1>
         <span>Software Engineer</span>
