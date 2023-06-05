@@ -47,9 +47,13 @@
   min-height: 60vh;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  overflow: scroll;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
+.cardDark::-webkit-scrollbar {
+  display: none;
+}
+
 @media (min-width: 900px) {
   .cardDark {
     min-width: 45%;
